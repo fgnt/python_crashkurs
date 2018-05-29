@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+.rise-enabled {
+  background-image: url('images/logo.png');
+  background-repeat: no-repeat;
+  background-position: right 10px top 10px;
+  background-size: auto 10%;
+  font-family: 'Signika', serif;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  color: #004996;
+  font-family: 'Signika', serif;
+}
+
+.reveal p {
+  font-family: 'Signika', serif;
+}
