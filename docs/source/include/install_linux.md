@@ -1,7 +1,7 @@
-# Install and use Anaconda under Linux
+# Install for Linux
 
 ## Install
-You can go to https://www.anaconda.com/download/#linux, download anaconda and execute the file (i.e. bash path/to/downloaded).
+You can go to [https://www.anaconda.com/download/#linux](https://www.anaconda.com/download/#linux), download anaconda and execute the file (i.e. bash path/to/downloaded).
 
 Or if you only want to use the commandline execute the following commands:
 
@@ -20,7 +20,7 @@ bash anaconda.sh
 ```
 Alternative automatic install:
 `bash anaconda.sh -b -p anaconda`.
-For the arguments see https://stackoverflow.com/a/28035048/5766934 .
+For the arguments see [https://stackoverflow.com/a/28035048/5766934](https://stackoverflow.com/a/28035048/5766934) .
 
 ### Delete the downloaded installer (optional)
 ```bash

@@ -10,8 +10,9 @@ Welcome to Python Tutorial's documentation!
    :maxdepth: 2
 
    include/install_linux
-   include/basics
-   include/names
+   include/install_windows
+   include/packages
+   include/editors
 
 
 
