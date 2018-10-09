@@ -13,6 +13,7 @@ Welcome to Python Tutorial's documentation!
    include/install_windows
    include/packages
    include/editors
+   include/glossary
 
 
 
