@@ -9,6 +9,7 @@ Welcome to Python Tutorial's documentation!
 .. toctree::
    :maxdepth: 2
 
+   include/course_outline
    include/install_linux
    include/install_windows
    include/packages
