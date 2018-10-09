@@ -10,6 +10,7 @@ Welcome to Python Tutorial's documentation!
    :maxdepth: 2
 
    include/course_outline
+   include/matlab_v_python
    include/install_linux
    include/install_windows
    include/packages
