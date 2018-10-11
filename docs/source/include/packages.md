@@ -39,6 +39,6 @@ pip:
  - some packages are outdated
  - recommented for libraries that have C++ dependencies (`numpy`, `scipy`, `matplotlib`, `cython`, `numba`, ...) 
    - These are well maintained from anaconda
-   - numpy from conda is usually faster from conda
+   - numpy is usually faster when installed from conda
 
 
