@@ -12,7 +12,6 @@ Please follow the Installation Manual for your OS: [Windows](install_windows.htm
 #### Material
 1. Relevant Notebooks: `03_python.ipynb`
 2. Relevant CheatSheet: XXX
-3. Relevant Exercises: XXX
 
 ## 2. Numpy and Matplotlib
 
@@ -22,6 +21,6 @@ Pandas is a very import package to manipulate and work with taublar data. In thi
 #### Material
 1. Relevant Notebooks: `05_matplotlib.ipynb`, `07_pandas.ipynb`, `07-01_pandas-apply.ipynb`
 2. Relevant CheatSheet: `Pandas_Cheat_Sheet.pdf`
-3. Relevant Exercises Pandas: `0X_Pandas_und_Korrelation_Aufgabe.ipynb`
-4. Relevant Exercises Numpy, Scipy and Plots: `0X_Signalanalyse_Aufgabe.ipynb`
+3. Relevant Exercises Pandas: `03-01_Pandas_Task.ipynb`
+4. Relevant Exercises Numpy, Scipy and Plots: `03-02_Signal_Analysis_Task.ipynb`
 
