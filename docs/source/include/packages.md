@@ -24,3 +24,21 @@ or
 ```
 pip install tensorflow
 ```
+
+## Conda vs pip
+
+pip:
+ - default python installer
+ - has always up to date packages
+ - usually maintained from the package owners
+ - recomented for pure python packages
+
+ conda:
+ - general purposed package manager
+   - mainly used for python
+ - some packages are outdated
+ - recommented for libraries that have C++ dependencies (`numpy`, `scipy`, `matplotlib`, `cython`, `numba`, ...) 
+   - These are well maintained from anaconda
+   - numpy from conda is usually faster from conda
+
+

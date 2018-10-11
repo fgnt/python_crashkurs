@@ -14,6 +14,7 @@ Welcome to Python Tutorial's documentation!
    include/install_linux
    include/install_windows
    include/packages
+   include/numpy
    include/editors
    include/glossary
 
