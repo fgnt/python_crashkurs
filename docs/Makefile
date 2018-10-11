@@ -18,3 +18,10 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+
+.PHONY: github
+github: clean html
+	rsync -av --progress --delete build/html/ python_crashkurs_doc/docs/
+	cd python_crashkurs_doc && git add -A && git commit -m "Update doc" && git push
+
