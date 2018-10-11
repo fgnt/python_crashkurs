@@ -23,23 +23,24 @@
 * Tensorflow / PyTorch (Neural Networks)
 * SymPy (Symbolic computations)
 * Seaborn (Advanced Plotting)
+* ...
 
 ## Quickstart
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 
-U_0 = 3; # V
-u_peak = 2; # V
-f_0 = 50; # 1/s
+U_0 = 3  # V
+u_peak = 2  # V
+f_0 = 50  # 1/s
 
 # Timevector in s (Sequence of numbers)
-t = np.arange(start=0, stop=0.04, step=0.001);
-u = U_0 + u_peak* np.sin(2*np.pi*f_0*t);
+t = np.arange(start=0, stop=0.04, step=0.001)
+u = U_0 + u_peak * np.sin(2 * np.pi * f_0 * t)
 plt.plot(t, u, 'o--')
 plt.xlabel('Zeit $t$ / s')
 plt.ylabel('Spannung $u(t)$ / V')
 plt.grid(True)
 ```
-
+ ![Quickstart.png](../_static/Quickstart.png)
 
