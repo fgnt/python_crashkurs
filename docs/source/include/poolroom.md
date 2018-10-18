@@ -1,4 +1,4 @@
-Use in Poolroom
+# Use in Poolroom
 
 Open a terminal and execute the following command:
 ```bash
