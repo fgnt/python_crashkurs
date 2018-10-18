@@ -114,13 +114,10 @@ np.float64
 ```
 
 Strides are one reason for the efficiency of numpy.
-Usually the user do not care about the strides.
-The thing to remember from strides is, that some operations (e.g. `np.transpose`, slice) return a view to the original array with modified strides.
-Inplace operations change then the original array.
+Usually the user does not care about the strides.
 
-## Numpy array manipulations
 
-### Transpose
+## Transpose
 A transpose in numpy means array transpose and not matrix transpose
 ```python
 >>> a.shape
@@ -135,8 +132,10 @@ A transpose in numpy means array transpose and not matrix transpose
 
 ```
 
-### Reshape
-You can change the shape of an array with reshape. The memory layout stay and only the interpretation changes
+## Reshape
+You can change the shape of an array with reshape.
+The numbers after reshape are the same, only the arrangement changes.
+
 ```python
 >>> b = a.reshape(2, 8)  # same as np.reshape(a, [2, 8])
 ```
@@ -144,11 +143,12 @@ You can change the shape of an array with reshape. The memory layout stay and on
  ![numpy-reshape-examples_t.png](../_static/numpy-reshape-examples_t.png)
 <sup><sub>http://backtobazics.com/wp-content/uploads/2018/08/numpy-reshape-examples.jpg</sub></sup>
 
-### Getitem: Slicing and indexing
+## Getitem: Slicing and indexing
 
 In python the index starts with 0 like in C/C++ and not with 1 as in MATLAB. The syntax is: `[start:stop:step]`.
-Step is the last one and optional `[start:stop]`. Negative values are supported (e.g `[::-1]` reverses the order).
-A value for start `[:stop]` and stop `[start:]` is also optional. Examples (1d):
+Step describes the spacing between two values and is optional `[start:stop]` with a default value of 1.
+Negative values are supported (e.g `[::-1]` reverses the order).
+A value for start `[:stop]` and stop `[start:]` is also optional (defaults: `start=0` and `stop=N` where `N` is the length of the dimension). Examples (1 dimensional):
 
  ![listindexing1.svg](../_static/gertinold/listindexing1.svg)
  <br> <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/tree/master/images</sub></sup>
@@ -160,7 +160,7 @@ Negative indices for start and stop are also supported:
  ![listindexing2.svg](../_static/gertinold/listindexing2.svg)
 <br> <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/tree/master/images</sub></sup>
 
-Some 1d code examples:
+Some 1 dimensinal code examples:
 
 ```python
 >>> a = np.arange(5)
@@ -210,7 +210,7 @@ and a visualisation
  ![numpy-slice_t.png](../_static/numpy-slice_t.png)
 <sup><sub>https://image.slidesharecdn.com/numpytalksiam-110305000848-phpapp01/95/numpy-talk-at-siam-14-728.jpg?cb=1299283822</sub></sup>
 
-Two advanced indexing examples. One with a boolean mask and the other one with an array of integers:
+Two advanced indexing examples. One with a boolean mask and the other one with an array of integers (`%` is modulo in Python):
 
  ![arraygraphics_6.svg](../_static/gertinold/arraygraphics_6.svg)
  ![arraygraphics_7.svg](../_static/gertinold/arraygraphics_7.svg)
@@ -218,7 +218,7 @@ Two advanced indexing examples. One with a boolean mask and the other one with a
 
 ## Basic operations
 
-The `np.ndarray` in numpy has many methods to manipulate them (`a.max()`, `a.sum()`, `a.reshape()`, ...).
+The `np.ndarray` in numpy has many methods to manipulate itself (`a.max()`, `a.sum()`, `a.reshape()`, ...).
 These have always a counterpart in the numpy namespace (`np.max(a)`, `np.sum(a)`, `np.reshape(a)`, ...).
 These functions will also work where `a` is compatible with numpy,
 i.e. `np.max(a)` is equal to `np.max(np.array(a))`.
@@ -321,7 +321,8 @@ For the matrix multiplication there are 3 ways to execute it:
  - `np.matmul(A, b)` is the recommented one (or the `@` operator)
  - `A @ B` alternative syntax for `np.matmul`
  - `np.dot(A, b)` similar to `np.matmul` but has difference broadcasting behaviours.
- - Note `A * B` is the elementwise multiplication
+
+Note `A * B` is the elementwise multiplication
 
 ## Basic broadcasting
 
