@@ -23,7 +23,9 @@ Please follow the Installation Manual for your OS: [Windows](install_windows.htm
 2. Relevant CheatSheet: [beginners_python_cheat_sheet_pcc_all][beginners_python_cheat_sheet_pcc_all]
 
 ## 2. Numpy and Matplotlib
-1. Relevant CheatSheet: [Numpy_Python_Cheat_Sheet][Numpy_Python_Cheat_Sheet]
+1. Introduction: [Numpy/SciPy](numpy.html)
+2. Relevant CheatSheet: [Numpy_Python_Cheat_Sheet][Numpy_Python_Cheat_Sheet]
+3. Relevant Exercises: `gertingold-numpy-tutorial-exercises.ipynb`
 
 ## 3. Pandas, Numpy, Scipy, Seaborn and Matplotlib
 Pandas is a very import package to manipulate and work with taublar data. In this section we will learn how to use the basic pandas datastructure called the `DataFrame`.

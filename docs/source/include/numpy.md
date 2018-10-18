@@ -216,7 +216,7 @@ Two advanced indexing examples. One with a boolean mask and the other one with a
  ![arraygraphics_7.svg](../_static/gertinold/arraygraphics_7.svg)
  <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/tree/master/images</sub></sup>
 
-## Basic operations
+## Function
 
 The `np.ndarray` in numpy has many methods to manipulate itself (`a.max()`, `a.sum()`, `a.reshape()`, ...).
 These have always a counterpart in the numpy namespace (`np.max(a)`, `np.sum(a)`, `np.reshape(a)`, ...).
@@ -324,7 +324,7 @@ For the matrix multiplication there are 3 ways to execute it:
 
 Note `A * B` is the elementwise multiplication
 
-## Basic broadcasting
+## Broadcasting
 
 By default the python operators (`+`, `-`, `*`, `/`, `**`) operate elementwise (except matrix multiplication `@`)
 To work elementwise it is important that the shapes match.

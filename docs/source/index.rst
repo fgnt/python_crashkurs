@@ -13,6 +13,7 @@ Welcome to Python Tutorial's documentation!
    include/matlab_v_python
    include/install_linux
    include/install_windows
+   include/poolroom
    include/packages
    include/numpy
    include/editors
