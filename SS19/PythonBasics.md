@@ -37,7 +37,7 @@ print(fstring)
 5 // 2
 2 ** 2
 ```
-
+Hint: integer has infinite numer of bits
 
 ## Collections
 List

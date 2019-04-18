@@ -19,6 +19,15 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+.PHONY: livehtml
+livehtml:
+	type sphinx-autobuild || pip install sphinx-autobuild
+	sphinx-autobuild -p 1916 \
+		--ignore "*~" \
+		--ignore "*.goutputstream*" \
+		--open-browser -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 .PHONY: github
 github: clean html

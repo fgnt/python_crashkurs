@@ -62,7 +62,7 @@ Python has buildin support for complex types:
 
 Note: Numpy is not save against overflows (while python is):
 ```python
->>> a = array([200], dtype=uint8)
+>>> a = np.array([200], dtype=uint8)
 >>> a
 array([200], dtype=uint8)
 >>> a + a  # overflow
@@ -86,10 +86,10 @@ array([500], dtype=uint16)
 
 ## Array creation
 
- - Numerical ranges: `np.arange`, `np.linspace`, `np.logspace`
- - Homogeneous data: `np.zeros`, `np.ones`
- - Diagonal elements: `np.diag`, `np.eye`
- - Random numbers: `np.random.rand`, `np.random.randint`
+ - Numerical ranges: `np.arange`, `np.linspace`, `np.logspace`, ...
+ - Homogeneous data: `np.zeros`, `np.ones`, ...
+ - Diagonal elements: `np.diag`, `np.eye`, ...
+ - Random numbers: `np.random.rand`, `np.random.randint`, ...
  - From `list`: `np.array`
 
  Numpy has an `append()`-method like python `list`s. 
@@ -137,7 +137,15 @@ You can change the shape of an array with reshape.
 The numbers after reshape are the same, only the arrangement changes.
 
 ```python
->>> b = a.reshape(2, 8)  # same as np.reshape(a, [2, 8])
+>>> a = np.array([[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3]])
+>>> a
+array([[1, 1, 1, 1],
+       [2, 2, 2, 2],
+       [3, 3, 3, 3]])
+>>> b = a.reshape(2, 6)  # same as np.reshape(a, [2, 6])
+>>> b
+array([[1, 1, 1, 1, 2, 2],
+       [2, 2, 3, 3, 3, 3]])
 ```
 
  ![numpy-reshape-examples_t.png](../_static/numpy-reshape-examples_t.png)
@@ -319,14 +327,14 @@ and there are many more functions, for example (all of them are in the numpy nam
 One often used operation is the matrix multiplication.
 For the matrix multiplication there are 3 ways to execute it:
  - `np.matmul(A, b)` is the recommented one (or the `@` operator)
- - `A @ B` alternative syntax for `np.matmul`
+ - `A @ b` alternative syntax for `np.matmul`
  - `np.dot(A, b)` similar to `np.matmul` but has difference broadcasting behaviours.
 
-Note `A * B` is the elementwise multiplication
+Note: `A * b` is the elementwise multiplication
 
 ## Broadcasting
 
-By default the python operators (`+`, `-`, `*`, `/`, `**`) operate elementwise (except matrix multiplication `@`)
+By default the python operators (`+`, `-`, `*`, `/`, `**`) operate elementwise (except matrix multiplication `@`).
 To work elementwise it is important that the shapes match.
 At this position broadcasting is important.
 It mean, when the shapes do not match, numpy try to match them with broadcasting.
