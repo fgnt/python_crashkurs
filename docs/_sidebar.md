@@ -1,0 +1,11 @@
+
+ * [Description](/)
+ * [Course Outline](include/course_outline)
+ * [Introduction](include/matlab_v_python)
+ * [Installation for Linux](include/install_linux)
+ * [Installation for Windows](include/install_windows)
+ * [Use in Poolroom](include/poolroom)
+ * [Installing and updating packages](include/packages)
+ * [Numpy/Scipy](include/numpy)
+ * [Editors](include/editors)
+ * [Glossary](include/glossary)
