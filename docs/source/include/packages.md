@@ -33,7 +33,7 @@ pip:
  - usually maintained from the package owners
  - recomented for pure python packages
 
- conda:
+conda:
  - general purposed package manager
    - mainly used for python
  - some packages are outdated

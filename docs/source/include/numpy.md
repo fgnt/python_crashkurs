@@ -35,10 +35,9 @@
    - It is nearly impossible to find a scientific package in Python that does not depend on numpy
  - Defines a multidimensional array object and the tools to work on them
    - Linear algebra, DFT, random numbers, ...
- - Has a good documentation
-   - [https://docs.scipy.org/doc/numpy/](https://docs.scipy.org/doc/numpy/)
+ - Has a good documentation: https://docs.scipy.org/doc/numpy/
 
- ![numpy_array_t.png](../_static/numpy_array_t.png)
+![numpy_array_t.png](../_static/numpy_array_t.png)
 <sup><sub> https://www.oreilly.com/library/view/elegant-scipy/9781491922927/ch01.html</sub></sup>
 
 Example: Import numpy and create a 3-dimensional array with the shape `[4, 3, 2]`
@@ -49,8 +48,8 @@ Example: Import numpy and create a 3-dimensional array with the shape `[4, 3, 2]
 
 ## Datatypes (dtype)
  - Integers: `np.int8`, `np.int16`, `np.int32`, `np.int64`, `np.uint8`, ...
- - Float: `np.float16`, `np.float32`, `np.float64`, . . .
- - Complex: `np.complex64` (single precision), `np.complex128` (double precision), . . .
+ - Float: `np.float16`, `np.float32`, `np.float64`, ...
+ - Complex: `np.complex64` (single precision), `np.complex128` (double precision), ...
  - Boolean: `np.bool8`
  - default type: `np.float64`
 
@@ -85,16 +84,15 @@ array([500], dtype=uint16)
 
 
 ## Array creation
-
  - Numerical ranges: `np.arange`, `np.linspace`, `np.logspace`, ...
  - Homogeneous data: `np.zeros`, `np.ones`, ...
  - Diagonal elements: `np.diag`, `np.eye`, ...
  - Random numbers: `np.random.rand`, `np.random.randint`, ...
  - From `list`: `np.array`
 
- Numpy has an `append()`-method like python `list`s. 
- Avoid it.
- Use a python `list` with append and convert it with `np.array`
+Numpy has an `append()`-method like python `list`s. 
+Avoid it.
+Use a python `list` with append and convert it with `np.array`
 
 ## Numpy array properties
 

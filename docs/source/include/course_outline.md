@@ -18,7 +18,7 @@ Note: The material is not finished. We will update it.
 In this section we will set up your development environment and get familiar with very basic Python commands.
 Please follow the Installation Manual for your OS: [Windows](install_windows.html), [Linux](install_linux.html).
 
-#### Material
+### Material
 1. Relevant Notebooks: [03_python.ipynb][03_python.ipynb]
 2. Relevant CheatSheet: [beginners_python_cheat_sheet_pcc_all][beginners_python_cheat_sheet_pcc_all]
 
@@ -30,7 +30,7 @@ Please follow the Installation Manual for your OS: [Windows](install_windows.htm
 ## 3. Pandas, Numpy, Scipy, Seaborn and Matplotlib
 Pandas is a very import package to manipulate and work with taublar data. In this section we will learn how to use the basic pandas datastructure called the `DataFrame`.
 
-#### Material
+### Material
 1. Relevant Notebooks: `05_matplotlib.ipynb`, `07_pandas.ipynb`, `07-01_pandas-apply.ipynb`
 2. Relevant CheatSheet: [Pandas_Cheat_Sheet.pdf][Pandas_Cheat_Sheet.pdf]
 3. Relevant Exercises Pandas: `03-01_Pandas_Task.ipynb`
