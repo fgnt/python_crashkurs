@@ -1,4 +1,4 @@
-![logo](_static/python_logo.svg)
+![logo](static/python_logo.svg)
 
 # Python-Crashkurs
 

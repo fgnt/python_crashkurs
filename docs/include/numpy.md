@@ -4,24 +4,24 @@
 
 <table>
 <tr>
-    <td><img src="../_static/numpylogo_med.png" alt="numpylogo_med.png" width="50" height="50"></td>
+    <td><img src="../static/numpylogo_med.png" alt="numpylogo_med.png" width="50" height="50"></td>
     <td>
       <b>NumPy</b><br>
       Base N-dimensional array package
     </td>
-    <td><img src="../_static/matplotlib_med.png" alt="matplotlib_med.png" width="50" height="50"></td>
+    <td><img src="../static/matplotlib_med.png" alt="matplotlib_med.png" width="50" height="50"></td>
     <td>
       <b>Matplotlib</b><br>
       Comprehensive 2D Plotting
     </td>
 </tr>
 <tr>
-    <td><img src="../_static/scipy_med.png" alt="scipy_med.png" width="50" height="50"></td>
+    <td><img src="../static/scipy_med.png" alt="scipy_med.png" width="50" height="50"></td>
     <td>
       <b>SciPy library</b><br>
       Fundamental library for scientific computing
     </td>
-    <td><img src="../_static/pandas_badge2.jpg" alt="pandas_badge2.jpg" width="50" height="50"></td>
+    <td><img src="../static/pandas_badge2.jpg" alt="pandas_badge2.jpg" width="50" height="50"></td>
     <td>
       <b>Pandas</b><br>
       Data structures & analysis
@@ -37,7 +37,7 @@
    - Linear algebra, DFT, random numbers, ...
  - Has a good documentation: https://docs.scipy.org/doc/numpy/
 
-![numpy_array_t.png](../_static/numpy_array_t.png)
+![numpy_array_t.png](../static/numpy_array_t.png)
 <sup><sub> https://www.oreilly.com/library/view/elegant-scipy/9781491922927/ch01.html</sub></sup>
 
 Example: Import numpy and create a 3-dimensional array with the shape `[4, 3, 2]`
@@ -146,7 +146,7 @@ array([[1, 1, 1, 1, 2, 2],
        [2, 2, 3, 3, 3, 3]])
 ```
 
- ![numpy-reshape-examples_t.png](../_static/numpy-reshape-examples_t.png)
+ ![numpy-reshape-examples_t.png](../static/numpy-reshape-examples_t.png)
 <sup><sub>http://backtobazics.com/wp-content/uploads/2018/08/numpy-reshape-examples.jpg</sub></sup>
 
 ## Getitem: Slicing and indexing
@@ -156,14 +156,14 @@ Step describes the spacing between two values and is optional `[start:stop]` wit
 Negative values are supported (e.g `[::-1]` reverses the order).
 A value for start `[:stop]` and stop `[start:]` is also optional (defaults: `start=0` and `stop=N` where `N` is the length of the dimension). Examples (1 dimensional):
 
- ![listindexing1.svg](../_static/gertinold/listindexing1.svg)
+ ![listindexing1.svg](../static/gertinold/listindexing1.svg)
  <br> <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/tree/master/images</sub></sup>
 
  - Note: The last value is not included in slicing (e.g. `[:-1]` mean drop the last element)
 
 Negative indices for start and stop are also supported:
 
- ![listindexing2.svg](../_static/gertinold/listindexing2.svg)
+ ![listindexing2.svg](../static/gertinold/listindexing2.svg)
 <br> <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/tree/master/images</sub></sup>
 
 Some 1 dimensinal code examples:
@@ -213,13 +213,13 @@ array([0, 3, 6, 9])
 array(1)
 ```
 and a visualisation
- ![numpy-slice_t.png](../_static/numpy-slice_t.png)
+ ![numpy-slice_t.png](../static/numpy-slice_t.png)
 <sup><sub>https://image.slidesharecdn.com/numpytalksiam-110305000848-phpapp01/95/numpy-talk-at-siam-14-728.jpg?cb=1299283822</sub></sup>
 
 Two advanced indexing examples. One with a boolean mask and the other one with an array of integers (`%` is modulo in Python):
 
- ![arraygraphics_6.svg](../_static/gertinold/arraygraphics_6.svg)
- ![arraygraphics_7.svg](../_static/gertinold/arraygraphics_7.svg)
+ ![arraygraphics_6.svg](../static/gertinold/arraygraphics_6.svg)
+ ![arraygraphics_7.svg](../static/gertinold/arraygraphics_7.svg)
  <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/tree/master/images</sub></sup>
 
 ## Function
@@ -346,7 +346,7 @@ prepended with a dimension of length 1 to satisfy property 2.
 
 <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/</sub></sup>
 
-![broadcast.svg](../_static/gertinold/broadcast.svg)
+![broadcast.svg](../static/gertinold/broadcast.svg)
  <sup><sub>https://github.com/gertingold/euroscipy-numpy-tutorial/tree/master/images</sub></sup>
 
 ## Getitem: Insert singleton dimension
@@ -366,7 +366,7 @@ array([[ 6,  7,  8],
 ## Einsum
 https://en.wikipedia.org/wiki/Einstein_notation
 
- ![numpy_einsum.png](../_static/numpy_einsum.png)
+ ![numpy_einsum.png](../static/numpy_einsum.png)
 <sup><sub>https://obilaniu6266h16.wordpress.com/2016/02/04/einstein-summation-in-numpy/</sub></sup>
 
 ## Further information

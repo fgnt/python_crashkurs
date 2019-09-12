@@ -42,5 +42,5 @@ plt.xlabel('Zeit $t$ / s')
 plt.ylabel('Spannung $u(t)$ / V')
 plt.grid(True)
 ```
- ![Quickstart.png](../_static/Quickstart.png)
+ ![Quickstart.png](../static/Quickstart.png)
 
