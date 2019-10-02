@@ -1,7 +1,7 @@
 # Installation for Linux
 
 ## Install
-You can go to [https://www.anaconda.com/download/#linux](https://www.anaconda.com/download/#linux), download anaconda and execute the file (i.e. bash path/to/downloaded).
+You can go to [https://www.anaconda.com/download/#linux](https://www.anaconda.com/download/#linux), download anaconda and execute the file (i.e. `bash path/to/downloaded`).
 
 ### Pure installation from terminal
 Or if you only want to use the commandline execute the following commands:
@@ -14,7 +14,7 @@ cd /path/to/install/anaconda  # e.g. cd /opt/
 
 Download anaconda and save it under `anaconda.sh`
 ```bash
-wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh -O anaconda.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh -O anaconda.sh
 ```
 
 Install anaconda. Answer all questions that get prompted
@@ -35,7 +35,6 @@ rm anaconda.sh
 Run the following to activate the new installed anaconda in the current shell:
 ```bash
 source /path/to/install/anaconda/bin/activate
-
 ```
 Alternative if you know what you are doing:
 ```bash
