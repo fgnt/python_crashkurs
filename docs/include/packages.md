@@ -4,7 +4,7 @@ Anaconda comes with a lot of scientific packages, however if you need an additio
 
 ## Update Anaconda Distribution
 
-Anaconda publishes updates to its whole distribution every few months. Start _Anaconda Prompt_ and update then by
+Anaconda publishes updates to its whole distribution every few months. Start _Anaconda Prompt_ (Windows) or activate the _Anaconda Enviroment_ (Linux) and update then by
 
 ```
 conda update conda
@@ -40,5 +40,3 @@ conda:
  - recommented for libraries that have C++ dependencies (`numpy`, `scipy`, `matplotlib`, `cython`, `numba`, ...) 
    - These are well maintained from anaconda
    - numpy is usually faster when installed from conda
-
-

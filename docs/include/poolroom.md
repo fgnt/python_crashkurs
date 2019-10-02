@@ -18,8 +18,8 @@ jupyter notebook
 Complete example to run for the first time (i.e. initialize)
 ```bash
 cd ~/
-git clone https://git.cs.upb.de/chthiel/python-tutorial.git
-cd ~/python-tutorial
+git clone https://github.com/fgnt/python_crashkurs.git
+cd ~/python_crashkurs
 source /upb/scratch/users/c/cbj/py37/bin/activate
 jupyter notebook
 ```
@@ -27,7 +27,7 @@ jupyter notebook
 
 Complete example to run if already initialized:
 ```bash
-cd ~/python-tutorial
+cd ~/python-crashkurs
 git pull  # Read the output and interpret if there is an error
 source /upb/scratch/users/c/cbj/py37/bin/activate
 jupyter notebook
