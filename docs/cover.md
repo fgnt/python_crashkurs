@@ -3,6 +3,6 @@
 
 # Python-Crashkurs
 
-[Git](https://git.cs.upb.de/chthiel/python-tutorial)
+[Git](https://github.com/fgnt/python_crashkurs)
 <!-- [Course Outline]([#include/course_outline]) -->
 
