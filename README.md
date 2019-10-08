@@ -1,6 +1,6 @@
 # Python-Crashkurs
 
-Im Wintersemester 2019/20 bietet das Fachgebiet Nachrichtentechnik in Kooperation mit dem Fachgebiet Elektrische Messtechnik (https://ei.uni-paderborn.de/emt/lehre/lehrveranstaltungen/ws-201819/python-crashkurs/) einen Python-Crashkurs im Umfang von 3 x 2h an. Ziel dieses Crashkurses ist es, Studierenden eine Einstiegshilfe zu geben, um Python-Grundlagen zu lernen, welche in mehreren unserer Veranstaltungen (VSS, KSS, SML, OAF, ...) aber auch in den Veranstaltungen anderer Fachgebiete genutzt werden können.  
+Im Wintersemester 2019/20 bietet das Fachgebiet Nachrichtentechnik in Kooperation mit dem Fachgebiet Elektrische Messtechnik (https://ei.uni-paderborn.de/emt/lehre/lehrveranstaltungen/ws-20192020/python-crashkurs/) einen Python-Crashkurs im Umfang von 3 x 2h an. Ziel dieses Crashkurses ist es, Studierenden eine Einstiegshilfe zu geben, um Python-Grundlagen zu lernen, welche in mehreren unserer Veranstaltungen (VSS, KSS, SML, OAF, ...) aber auch in den Veranstaltungen anderer Fachgebiete genutzt werden können.  
 
 Der Crashkurs besteht aus drei Blöcken zu jeweils 2 Stunden.
 
