@@ -8,7 +8,8 @@ This course is divided in three parts:
 ## 0. Material
 All material is available on github.
 
-Go to https://github.com/fgnt/python_crashkurs to get the material (i.e. download https://github.com/fgnt/python_crashkurs/archive/master.zip) or better use git to clone the repository:
+Go to https://github.com/fgnt/python_crashkurs to get the material (i.e. download https://github.com/fgnt/python_crashkurs/archive/master.zip) or better use git to clone the repository.
+Windows users can download git from the official homepage (https://git-scm.com/downloads), and then use the `git` command from the `PowerShell`. In Linux, git is already available in the `Terminal`.:
 ```
 git clone https://github.com/fgnt/python_crashkurs.git
 ```
@@ -19,7 +20,7 @@ In this section we will set up your development environment and get familiar wit
 Please follow the Installation Manual for your OS: [Windows](./install_windows), [Linux](install_linux).
 
 ### Material
-1. Relevant Notebooks: [03_python.ipynb][03_python.ipynb]
+1. Relevant Notebooks: [02_jupyter.ipynb][02_jupyter.ipynb], [03_python.ipynb][03_python.ipynb]
 2. Relevant CheatSheet: [beginners_python_cheat_sheet_pcc_all][beginners_python_cheat_sheet_pcc_all]
 
 ## 2. Numpy and Matplotlib
@@ -38,6 +39,7 @@ Pandas is a very import package to manipulate and work with taublar data. In thi
 
 
 [03_python.ipynb]: https://github.com/fgnt/python_crashkurs/tree/master/notebooks/03_python.ipynb
+[02_jupyter.ipynb]: https://github.com/fgnt/python_crashkurs/tree/master/notebooks/02_jupyter.ipynb
 [beginners_python_cheat_sheet_pcc_all]: https://github.com/fgnt/python_crashkurs/tree/master/cheat_sheets/beginners_python_cheat_sheet_pcc_all.pdf
 [Numpy_Python_Cheat_Sheet]: https://github.com/fgnt/python_crashkurs/tree/master/cheat_sheets/Numpy_Python_Cheat_Sheet.pdf
 [Pandas_Cheat_Sheet.pdf]: https://github.com/fgnt/python_crashkurs/tree/master/cheat_sheets/Pandas_Cheat_Sheet.pdf

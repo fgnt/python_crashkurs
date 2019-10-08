@@ -15,7 +15,7 @@ conda update anaconda
 
 Many packages are hosted on [Anaconda Cloud](https://anaconda.org/), you can search there for a package and follow the install instructions.
 
-Typically you can install a new package with the following command inside _Anaconda Prompt_:
+Typically you can install a new package with the following command inside _Anaconda Prompt_ (Windows) or the Terminal (Linux):
 
 ```
 conda install -c conda-forge tensorflow
@@ -24,6 +24,7 @@ or
 ```
 pip install tensorflow
 ```
+We recommend to try conda first, especially if you are using windows. The conda command always delivers already compiled binaries. This is not guaranteed with pip.
 
 ## Conda vs pip
 
@@ -31,12 +32,13 @@ pip:
  - default python installer
  - has always up to date packages
  - usually maintained from the package owners
- - recomented for pure python packages
+ - recommended for pure python packages
 
 conda:
  - general purposed package manager
    - mainly used for python
  - some packages are outdated
- - recommented for libraries that have C++ dependencies (`numpy`, `scipy`, `matplotlib`, `cython`, `numba`, ...) 
+ - recommended for libraries that have C++ dependencies (`numpy`, `scipy`, `matplotlib`, `cython`, `numba`, ...) 
    - These are well maintained from anaconda
    - numpy is usually faster when installed from conda
+ - strongly recommended for windows users to avoid installing compilers 
