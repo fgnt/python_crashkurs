@@ -1,0 +1,1 @@
+Please check the online documentation at https://fgnt.github.io/python_crashkurs/
