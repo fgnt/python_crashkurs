@@ -1,27 +1,26 @@
 # Numpy/SciPy
 <sup><sub>The stuff below is inspired from https://www.youtube.com/watch?v=8JfDAm9y_7s and https://github.com/gertingold/euroscipy-numpy-tutorial</sub></sup>
 
-
 <table>
 <tr>
-    <td><img src="../static/numpylogo_med.png" alt="numpylogo_med.png" width="50" height="50"></td>
+    <td><img src="/static/numpylogo_med.png" alt="numpylogo_med.png" width="50" height="50"></td>
     <td>
       <b>NumPy</b><br>
       Base N-dimensional array package
     </td>
-    <td><img src="../static/matplotlib_med.png" alt="matplotlib_med.png" width="50" height="50"></td>
+    <td><img src="/static/matplotlib_med.png" alt="matplotlib_med.png" width="50" height="50"></td>
     <td>
       <b>Matplotlib</b><br>
       Comprehensive 2D Plotting
     </td>
 </tr>
 <tr>
-    <td><img src="../static/scipy_med.png" alt="scipy_med.png" width="50" height="50"></td>
+    <td><img src="/static/scipy_med.png" alt="scipy_med.png" width="50" height="50"></td>
     <td>
       <b>SciPy library</b><br>
       Fundamental library for scientific computing
     </td>
-    <td><img src="../static/pandas_badge2.jpg" alt="pandas_badge2.jpg" width="50" height="50"></td>
+    <td><img src="/static/pandas_badge2.jpg" alt="pandas_badge2.jpg" width="50" height="50"></td>
     <td>
       <b>Pandas</b><br>
       Data structures & analysis
