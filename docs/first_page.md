@@ -10,7 +10,7 @@ Der Crashkurs besteht aus drei Blöcken zu jeweils 2 Stunden.
  - Numerisches Python (numpy, scipy, ...)
  - Auswertung und Visualisierung (pandas, matplotlib, ...)
 
-Der Kurs findet am 11.10.2019 und den beiden nachfolgenden Freitagen jeweils von 09:00 bis 11:00 im Poolraum P7.02.1 statt.
+Der Kurs findet am 11.10.2019 und den beiden nachfolgenden Freitagen jeweils von 09:00 bis 11:00 im Poolraum P7.2.02.1 statt.
 Ein zweiter möglicher Termin kann je nach Nachfrage eingerichtet werden.
 Um die Teilnehmerzahl abschätzen zu können, melden Sie sich bitte für den Kurs in der jeweils ersten Stunde der Lehrveranstaltung VSS oder KSS an.
 
