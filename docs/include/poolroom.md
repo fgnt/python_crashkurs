@@ -28,7 +28,6 @@ jupyter notebook
 Complete example to run if already initialized:
 ```bash
 cd ~/python-crashkurs
-git pull  # Read the output and interpret if there is an error
 source /upb/scratch/users/c/cbj/py37/bin/activate
 jupyter notebook
 ```
