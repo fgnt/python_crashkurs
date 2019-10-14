@@ -23,6 +23,12 @@ Please follow the Installation Manual for your OS: [Windows](./install_windows),
 1. Relevant Notebooks: [02_jupyter.ipynb][02_jupyter.ipynb], [03_python.ipynb][03_python.ipynb]
 2. Relevant CheatSheet: [beginners_python_cheat_sheet_pcc_all][beginners_python_cheat_sheet_pcc_all]
 
+### Q: I didn't make it to the first lesson, what do I have to prepare for the next lesson?
+1. Get a working enviroment, i.e. install anaconda on your private computer or figure out, how to activate anaconda in the poolroom.
+2. Be able to launch a jupyter noteboook server
+3. Clone https://github.com/fgnt/python_crashkurs to your computer.
+4. Learn some python basics in a jupyter notebooke. e.g. work through `notebooks/03_python.ipynb`
+
 ## 2. Numpy and Matplotlib
 1. Introduction: [Numpy/SciPy](numpy)
 2. Relevant CheatSheet: [Numpy_Python_Cheat_Sheet][Numpy_Python_Cheat_Sheet]
