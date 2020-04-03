@@ -47,7 +47,7 @@ If you want to have the the new installed anaconda as default, add one of the ab
 
 Run the following command in a terminal, where anaconda is activated:
 ```bash
-jupyter notebooks
+jupyter notebook
 ```
 
 ## Optional: IDE
