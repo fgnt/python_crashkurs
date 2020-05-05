@@ -1,4 +1,4 @@
-# Jupyter
+# Jupyter / IPython
 
 ![jupyterpreview.png](../static/jupyterpreview.png)
 <sup><sub> https://jupyter.org/</sub></sup>
@@ -16,6 +16,10 @@ This should open a new tab in your browser.
 You should see the files in the current working directory.
 ![jupyter-notebook-dashboard.png](../static/jupyter-notebook-dashboard.png)
 <sup><sub> https://jupyter-notebook.readthedocs.io/en/stable/_images/jupyter-notebook-dashboard.png</sub></sup>
+
+IPython is an extention of the python language with some special commands for Jupyter.
+For example in the exercise notebooks, you will often find `%matplotlib inline`.
+This activates the `inline` plotting backend for jupyter.
 
 ## Shortcuts
 
