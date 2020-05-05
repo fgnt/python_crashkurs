@@ -6,6 +6,7 @@
  * [Installation for Windows](/include/install_windows)
  * [Use in Poolroom](/include/poolroom)
  * [Installing and updating packages](/include/packages)
+ * [Jupyter](/include/jupyter)
  * [Numpy/Scipy](/include/numpy)
  * [Editors](/include/editors)
  * [Glossary](/include/glossary)
