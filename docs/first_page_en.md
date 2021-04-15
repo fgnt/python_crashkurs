@@ -10,7 +10,10 @@ This Introduction course consists of three parts with an extent of 2h each:
  - Numerical Python (numpy, scipy)
  - Evaluation and visualization (pandas, matplotlib, ...)
 
-While the course was originally designed for multiple presence sessions, this time the course is intended as an online tutorial. However, there will be a question round at April 21st 16h00 to solve eventual problems with the setup of the Python environment. The participation in this course is fully optional. Nevertheless, the practical exercises in the courses mentioned above require the content of this introduction course and will not repeat its content.
+While the course was originally designed for multiple presence sessions, this time the course is intended as an online tutorial. 
+However, there will be a question round at April 15st 09:00 to solve eventual problems with the setup of the Python environment.
+The participation in this course is fully optional.
+Nevertheless, the practical exercises in the courses mentioned above require the content of this introduction course and will not repeat its content.
 
  - Documentation: https://fgnt.github.io/python_crashkurs
  - Materials: https://github.com/fgnt/python_crashkurs

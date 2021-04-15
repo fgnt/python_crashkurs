@@ -13,11 +13,13 @@ Windows users can download git from the official homepage (https://git-scm.com/d
 ```
 git clone https://github.com/fgnt/python_crashkurs.git
 ```
-Note: The material is not finished. We will update it.
+
+<!-- Note: The material is not finished. We will update it. -->
 
 ## 1. Installation and Python Basics
 In this section we will set up your development environment and get familiar with very basic Python commands.
-Please follow the Installation Manual for your OS: [Windows](./install_windows), [Linux](install_linux).
+~~Please follow the Installation Manual for your OS: [Windows](./install_windows), [Linux](install_linux).~~
+Because of the remote teaching we use [CoCalc](./setup_ntcocalc).
 
 ### Material
 1. Relevant Notebooks: [02_jupyter.ipynb][02_jupyter.ipynb], [03_python.ipynb][03_python.ipynb]
