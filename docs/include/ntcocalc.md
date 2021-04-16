@@ -16,7 +16,7 @@ We have our own server. Therefore, the service is completely free of charges. bu
 required to create an account. 
 Look up the URL and registration token in the online couse management (Panda) or ask your tutor if you occur any problems.
 
-Step by atep registration:
+Step by step registration:
  - Open the URL.
  - Click *Sign In*
  - Fill `Create an Account`
