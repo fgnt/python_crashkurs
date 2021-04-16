@@ -11,15 +11,18 @@
 > There are subscription plans for courses. Over 200 courses have used CoCalc.
 
 
-For remote programming exercises we decided to use CoCalc.
-We have our own server. Ask your tutor for the URL and the token (Required to create an account).
-So you don't have to pay anything.
+For remote programming exercises we decided to use CoCalc. 
+We have our own server. Therefore, the service is completely free of charges. but to use this server you are still
+required to create an account. 
+Look up the URL and registration token in the online couse management (Panda) or ask your tutor if you occur any problems.
 
+Step by atep registration:
  - Open the URL.
- - Click Sign In
+ - Click *Sign In*
  - Fill `Create an Account`
-   - Note: Our CoCalc doesn't send email, hence you will not get a confirmation mail.
-   - Use the lecture name as prefix of your first name (e.g. `[SML] Max`). That reduces the workload of your tutor to create a project. When you visit multiple lecture, you can use something like `[SML][DSSP] Max`.
+   - Note: Our CoCalc server doesn't send a confirmation email, your account will directly be appoved after registration.
+   - Use the lecture name as prefix of your first name (e.g. `[SML] Max`). That ensures your tutor will be able to invite you to the correct projects.
+   -  If you visit multiple lecture, you can use something like `[SML][DSSP] Max`.
 
 ## FAQ
 
