@@ -60,15 +60,15 @@ Python has buildin support for complex types:
 
 Note: Numpy is not save against overflows (while python is):
 ```python
->>> a = np.array([200], dtype=uint8)
+>>> a = np.array([200], dtype=np.uint8)
 >>> a
-array([200], dtype=uint8)
+array([200], dtype=np.uint8)
 >>> a + a  # overflow
-array([144], dtype=uint8)
+array([144], dtype=np.uint8)
 >>> a + 200  # overflow
-array([144], dtype=uint8)
+array([144], dtype=np.uint8)
 >>> a + 300  # no overflow, because 300 is first converted to uint16
-array([500], dtype=uint16)
+array([500], dtype=np.uint16)
 ```
 
 ## Numpy vs python list
@@ -371,6 +371,6 @@ https://en.wikipedia.org/wiki/Einstein_notation
 ## Further information
 
  - Numpy is a very well documented library
-   - do an online search for a function and you find a description with some toy exampls.
+   - Do an online search for a function and you find a description with some toy examples.
  - When this introduction was not enough, there are many further online tutorials
  - On stackoverflow are many examples for specific problems
