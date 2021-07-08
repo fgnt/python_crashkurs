@@ -9,5 +9,7 @@
  * [Installing and updating packages](/include/packages)
  * [Jupyter / IPython](/include/jupyter)
  * [Numpy/Scipy](/include/numpy)
+ * [Jupyter Debugging](/include/debug)
+ * [Profiling](/include/profiling)
  * [Editors](/include/editors)
  * [Glossary](/include/glossary)
