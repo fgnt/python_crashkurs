@@ -50,7 +50,7 @@ example_func()
 
 The `@lprun` decorator marks this function that we are interested for the profiling. Now, every time we call this function the profiling result will also be printed (See later example for how it will look like).
 
-If we are only interested in the profiling result of the function `fibonacci` and not the complete `example_func`, we can change the code to
+If we are interested in the profiling result of the function `fibonacci` and not the outer `example_func`, we can change the code to
 
 ```python
 @lprun([fibonacci])
