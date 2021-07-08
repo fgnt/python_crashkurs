@@ -1,13 +1,13 @@
 # Profiling
 
-For profiling, we need here some wrapper code.
-Since we wrote some wrapper code in our python toolbox (`paderbox`) to make it easy to use, you have to install the following to use it:
+For profiling, we need some additional wrapper code.
+We already wrote some wrapper code in our python toolbox (`paderbox`) to make it easy to use. You only have to install the following package to use it:
 
 ```bash
 pip install paderbox line_profiler memory_profiler pycallgraph
 ```
 
-in the Jupyter notebook you can use a `!` prefix in a cell to install them
+In the Jupyter notebook, you can use a `!` prefix in a cell to install the packages
 
 ```python
 ! pip install paderbox line_profiler memory_profiler pycallgraph
@@ -15,13 +15,13 @@ in the Jupyter notebook you can use a `!` prefix in a cell to install them
 
 General comments:
 
- - When your think you code is slow, it is important to first figure out, where the code is slow.
- - When you profile your program, the profiler overhead may be critical, e.g. when you profile a loop which has only a few simple integer operations
+ - If you think your code is slow, it is important to first figure out, where the bottleneck is.
+ - In some cases, the profiler overhead may be critical, e.g. if you profile a loop which has only a few simple integer operations
  - Try to avoid loops in python. Using numpy with an independent axis is much faster (speedups above 100 aren't uncommon)
 
-Now let me explain the `line_profiler` that I personally always use, to locate the bottleneck of my code.
+Now let me explain the `line_profiler` that I personally always use to locate the bottleneck of my code.
 
-First let us define a function, that we want to profile
+First, let us define a function, that we want to profile
 
 ```python
 def fibonacci(n):
@@ -48,9 +48,9 @@ def example_func():
 example_func()
 ```
 
-The `@lprun` decorator marks this function, that we are interested in a profiling result of that function. Each time we now call this function, the profiling result will be printed (See later example, how it will look like).
+The `@lprun` decorator marks this function that we are interested for the profiling. Now, every time we call this function the profiling result will also be printed (See later example for how it will look like).
 
-If we are interested in the profiling result of the function `fibonacci` and not `example_func`, we can change the code to
+If we are only interested in the profiling result of the function `fibonacci` and not the complete `example_func`, we can change the code to
 
 ```python
 @lprun([fibonacci])
@@ -62,7 +62,7 @@ def example_func():
 example_func()
 ```
 
-So now, we provide a list of intersted functions and classes to `lprun` and once we call `example_func`, we will get the profiling result for each function and each method of the classes.
+Here, we provide a list of interested functions and classes to `lprun` and once we call `example_func`, we will get the profiling result for each specified function and each method of the classes.
 Here an example output:
 
 ```
