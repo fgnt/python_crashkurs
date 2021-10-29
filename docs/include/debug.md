@@ -1,10 +1,10 @@
 
 # Jupyter Debugging
 
-This page descrips some debugging ideas for Jupyter Notebooks, i.e. figure out, what went wrong, when you got an error or the code works different than expected.
+This page describes some debugging ideas for Jupyter Notebooks, i.e. how to figure out what went wrong, if you got an error or the code works different than expected.
 
-General recommendiation:
-Add many `asserts` and tests to your code, some of them will most likely save you later much time, e.g.:
+General recommendation:
+Add many `asserts` and tests to your code. Some of them will most likely save you much time later on, e.g.:
 ```python
 import numpy as np
 
@@ -17,22 +17,22 @@ def observation_mean(observation_matrix):
 
 np.testing.assert_allclose(observation_matrix(np.array([[], []])), 5.)
 ```
-will fail, when you call is with the transposed observation matrix as input, which can easily happen (ToDO: Find a better example.).
+This example will fail if you call it with the transposed observation matrix as input, which can easily happen (ToDO: Find a better example.).
 
-Images are coppied from: https://jupyter-tutorial.readthedocs.io/de/latest/workspace/ipython/debugging.html
+Images are copied from: https://jupyter-tutorial.readthedocs.io/de/latest/workspace/ipython/debugging.html
 
-When you program something, it is likely, that the code does different thinks as indepdent.
-You will either observe, that the result is wrong or get an [Exception/Error](https://docs.python.org/3/tutorial/errors.html):
+When you program something, it is likely, that the code often bevaves different from your expectations.
+You will either observe that the result is wrong or get an [Exception/Error](https://docs.python.org/3/tutorial/errors.html):
 
 ![logo](../static/debug_exception.png)
 
-Here we want to adress the situation, that you got an [Exception/Error](https://docs.python.org/3/tutorial/errors.html) and you want figure out, what exactly went wrong.
+Here, we want to adress the situation, that you got an [Exception/Error](https://docs.python.org/3/tutorial/errors.html) and you want figure out, what exactly went wrong.
 
-When you got an [Exception/Error](https://docs.python.org/3/tutorial/errors.html), you can type `%debug` in another Jupyter cell and it will open debug console below that cell:
+If you get an [Exception/Error](https://docs.python.org/3/tutorial/errors.html), you can type `%debug` in another Jupyter cell and it will open debug console below that cell:
 
 ![logo](../static/debug_ipdb.png)
 
-The debug console will be at the position of the last exception and you can inspect the local variables (e.g. `print(a)`) or move in the Traceback `up` and `down` to view the variables in outer functions, see the image above.
+The debug console will start at the position of the last exception and you can inspect all local variables (e.g. `print(a)`) or move along the Traceback (`up` and `down`) to view the variables in outer functions as in the image above.
 
 Important Commands (For more see https://wangchuan.github.io/coding/2017/07/12/ipdb-cheat-sheet.html or use a search engine):
  - `u`, `up`: Move the Traceback one up.
@@ -40,3 +40,5 @@ Important Commands (For more see https://wangchuan.github.io/coding/2017/07/12/i
  - `q`, `quit`, `exit`: Exit the debugger.
  - `p`, `print`: Print
  - `h`, `help`: Open help, e.g. list commands with `h` and the description of one command with `h down`
+
+Note: Always exit the debugging console! You won't be able to execute any cells while it's still active, even if you already deleted the debugging cell. 
