@@ -18,8 +18,8 @@ git clone https://github.com/fgnt/python_crashkurs.git
 
 ## 1. Installation and Python Basics
 In this section we will set up your development environment and get familiar with very basic Python commands.
-~~Please follow the Installation Manual for your OS: [Windows](./install_windows), [Linux](install_linux).~~
-Because of the remote teaching we use [CoCalc](./setup_ntcocalc).
+Please follow the Installation Manual for your OS: [Windows](./install_windows), [Linux](install_linux).
+<!-- Because of the remote teaching we use [CoCalc](./setup_ntcocalc). -->
 
 ### Material
 1. Relevant Notebooks: [02_jupyter.ipynb][02_jupyter.ipynb], [03_python.ipynb][03_python.ipynb]
@@ -29,7 +29,7 @@ Because of the remote teaching we use [CoCalc](./setup_ntcocalc).
 1. Get a working enviroment, i.e. install anaconda on your private computer or figure out, how to activate anaconda in the poolroom.
 2. Be able to launch a jupyter noteboook server
 3. Clone https://github.com/fgnt/python_crashkurs to your computer.
-4. Learn some python basics in a jupyter notebooke. e.g. work through `notebooks/03_python.ipynb`
+4. Learn some python basics in a jupyter notebook. e.g. work through `notebooks/03_python.ipynb`
 
 ## 2. Numpy and Matplotlib
 1. Introduction: [Numpy/SciPy](numpy)
