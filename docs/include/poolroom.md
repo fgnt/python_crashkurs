@@ -43,3 +43,7 @@ jupyter notebook
  - Launch the Plain Jupyter server.
 
 You can also use the build in Jupyter, but it misses some features.
+
+# JupyterHub
+
+See [Remote: JupyterHub and CoCalc](/include/ntcocalc)
