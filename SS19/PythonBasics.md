@@ -1,6 +1,8 @@
 
 # Python Crash Course (Basics)
 
+# The PEP 8 Song (PEP 8 -- Style Guide for Python Code)
+https://www.youtube.com/watch?v=hgI0p1zf31k
 
 ## Jupyther Notebook
 Shortcuts:
@@ -37,7 +39,7 @@ print(fstring)
 5 // 2
 2 ** 2
 ```
-Hint: integer has infinite numer of bits
+Hint: integer has infinite numer of bits (e.g. `2**4000`)
 
 ## Collections
 List
@@ -54,6 +56,7 @@ Collection operations (Be carefull):
 ```python
 print(l + l)
 print(t * 3)
+l.append(3.2)
 ```
 
 Indexing and slicing:
@@ -66,10 +69,13 @@ print(l[1:6:2])
 ```
 Start with 0. End with -1. Slice exclude last.
 
-Dict:
+Dict (Mapping, Hash):
 ```python
 d = {'a': 1, 2: 'b'}  # d = dict(a=1)
 print(d['a'], d[2])
+print(d.keys())
+print(d.values())
+print(d.items())
 ```
 
 
@@ -90,7 +96,7 @@ else:
 ```python
 l = list(range(10))
 for e in l:
-    print(l)
+    print(e)
 
 while len(l) > 2:
     del l[2]
@@ -139,13 +145,43 @@ class Dog:
 
 Programm the multiplication of the matrices with `for` loops:
 ```python
-A = [[1, 2], [3, 4]]
-B = [[5, 6], [7, 8]]
-C = ...
+A = [
+    [1, 2, 3],
+    [4, 5, 6],
+]
+B = [
+    [7, 8],
+    [9, 10],
+    [11, 12],
+]
+C = ...   # [[58, 64], [139, 154]]
+```
+
+```
+C = [[0,0],[0,0]]
+for r in range(2):
+    for c in range(2):
+        for z in range(2):
+            C[r][c] = C[r][c] + A[r][z]*B[z][c]        
+
+C = [
+    [
+        sum(x*y for x, y in zip(a, b))
+        for b in list(zip(*B))
+    ]
+    for a in A
+]
+
 ```
 
 Python itself is not well suited for numeric problems.
 Next lession: Numpy and Matplotlib.
+
+#### Preview for next week
+```
+import numpy as np
+np.matmul(A, B)
+```
 
 
 ## Advanced Topics
