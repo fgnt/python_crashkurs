@@ -37,6 +37,6 @@ The debug console will be at the position of the last exception and you can insp
 Important Commands (For more see https://wangchuan.github.io/coding/2017/07/12/ipdb-cheat-sheet.html or use a search engine):
  - `u`, `up`: Move the Traceback one up.
  - `d`, `down`: Move the Traceback one up.
- - `q`, `quit`: Exit the debugger.
+ - `q`, `quit`, `exit`: Exit the debugger.
  - `p`, `print`: Print
  - `h`, `help`: Open help, e.g. list commands with `h` and the description of one command with `h down`
