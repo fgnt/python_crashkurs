@@ -12,7 +12,7 @@ This Introduction course consists of three parts with an extent of 2h each:
 
 <!-- While the course was originally designed for multiple presence sessions, this time the course is intended as an online tutorial. 
 However, there will be a question round at April 15st 09:00 to solve eventual problems with the setup of the Python environment. -->
-The course will take place on October 29th, 2021 and the following Friday from 14:00 to 16:00 in the pool room P7.2.02.1.
+The course will take place on October 21th, 2022 and the following Friday from 14:00 to 16:00 in the pool room P7.2.02.1.
 This year, we will skip the third part.
 The participation in this course is fully optional.
 Nevertheless, the practical exercises in the courses mentioned above require the content of this introduction course and will not repeat its content.
