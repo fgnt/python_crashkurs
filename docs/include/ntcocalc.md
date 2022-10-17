@@ -16,6 +16,10 @@
 > for small and large teams, academic courses, and large-scale infrastructure.
 
 We have our own Jupyter Hub server (https://ntprog2.upb.de), but we have to activate your University Account (i.e. IMT account) manually.
+If its not activated, you will get the following error:
+
+> Spawn failed: Server at http://127.0.0.1:46431/jupyter/user/<IMTUser\>/ didn't respond in 30 seconds
+ 
 Alternatively, your can ask your tutor to get a user and password assigned.
 
 # Remote: CoCalc
