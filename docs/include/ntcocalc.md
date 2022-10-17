@@ -15,9 +15,8 @@
 > user in the world. It is customizable and scalable, and is suitable
 > for small and large teams, academic courses, and large-scale infrastructure.
 
-We have our own Jupyter Hub server, but we still wait for the IMT, so that
-you can use your University Account to login (Oct, 2021).
-At the moment, you have to ask your tutor to get a user and password assigned.
+We have our own Jupyter Hub server (https://ntprog2.upb.de), but we have to activate your University Account (i.e. IMT account) manually.
+Alternatively, your can ask your tutor to get a user and password assigned.
 
 # Remote: CoCalc
 
