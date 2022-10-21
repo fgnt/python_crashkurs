@@ -1,4 +1,4 @@
-![logo](static/python_logo.svg)
+![logo](docs/static/python_logo.svg)
 
 # Python Introduction Course
 
