@@ -66,6 +66,10 @@ print(l[0])
 print(l[-1])
 print(l[::2])
 print(l[1:6:2])
+del l[3]
+print(l)
+l.append(3.2)
+print(l)
 ```
 Start with 0. End with -1. Slice exclude last.
 
@@ -112,6 +116,11 @@ squares = [
     if a < 5
 ]
 print(squares)
+
+squares = []
+for a in range(11):
+    if a < 5:
+        squares.append(a ** 2)
 ```
 
 
@@ -157,6 +166,13 @@ B = [
 C = ...   # [[58, 64], [139, 154]]
 ```
 
+Optional question:
+How many nested loops:
+1:   ? 
+2:   ?
+3:   ? <-- correct
+4:   ?
+
 ```
 C = [[0,0],[0,0]]
 for r in range(2):
@@ -175,7 +191,7 @@ C = [
 ```
 
 Python itself is not well suited for numeric problems.
-Next lession: Numpy and Matplotlib.
+Next lession: Numpy
 
 #### Preview for next week
 ```
