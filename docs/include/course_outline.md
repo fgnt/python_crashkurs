@@ -18,7 +18,9 @@ git clone https://github.com/fgnt/python_crashkurs.git
 
 ## 1. Installation and Python Basics
 In this section we will set up your development environment and get familiar with very basic Python commands.
-Please follow the Installation Manual for your OS: [Windows](./install_windows), [Linux](install_linux).
+Please follow the Installation Manual for your OS: [Windows](./install_windows), [Linux](install_linux)
+or follow the instruction at [Poolroom](poolroom.md) to start a jupyter notebook in the Poolroom.
+Alternatively, you can use our [JupyterHub Server](ntcocalc.md) or external services like CoCalc (https://cocalc.com) or Colab (https://colab.research.google.com/).
 <!-- Because of the remote teaching we use [CoCalc](./setup_ntcocalc). -->
 
 ### Material
