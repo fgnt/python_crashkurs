@@ -20,6 +20,7 @@ If its not activated, you will get the following error:
 
 > Spawn failed: Server at http://127.0.0.1:46431/jupyter/user/<IMTUser\>/ didn't respond in 30 seconds
  
+Ask your tutor, to get your account activated. He needs your IMT login name.
 Alternatively, your can ask your tutor to get a user and password assigned.
 
 # Remote: CoCalc
