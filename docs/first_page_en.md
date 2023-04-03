@@ -8,6 +8,8 @@ This Introduction course consists of three parts with an extent of 2h each:
 
  - Setting up Python (Laptop/ university computer pool), Python fundamentals, Jupyter
  - Numerical Python (numpy, scipy)
+   - Numpy introduction and exercise
+   - How to exercise: Translate math do code.
  - Evaluation and visualization (pandas, matplotlib, ...)
 
 <!-- While the course was originally designed for multiple presence sessions, this time the course is intended as an online tutorial. 
