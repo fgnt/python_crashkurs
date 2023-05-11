@@ -2,7 +2,8 @@
 
 # Remote: Jupyter Hub
 
-(jupyter.org)[https://jupyter.org/hub]
+[jupyter.org](https://jupyter.org/hub):
+
 > JupyterHub brings the power of notebooks to groups of users.
 > It gives users access to computational environments and resources 
 > without burdening the users with installation and maintenance tasks.
@@ -15,6 +16,10 @@
 > user in the world. It is customizable and scalable, and is suitable
 > for small and large teams, academic courses, and large-scale infrastructure.
 
+## NT Jupyterhub serverer
+
+Website: https://ntprog2.upb.de
+
 We have our own Jupyter Hub server (https://ntprog2.upb.de), but we have to activate your University Account (i.e. IMT account) manually.
 If its not activated, you will get the following error:
 
@@ -22,6 +27,30 @@ If its not activated, you will get the following error:
  
 Ask your tutor, to get your account activated. He needs your IMT login name.
 Alternatively, your can ask your tutor to get a user and password assigned.
+
+## IMT Jupyterhub server
+
+Website: https://jupyter.upb.de
+
+### Setup:
+
+See https://hilfe.uni-paderborn.de/Jupyter_-_Allgemeine_Informationen for instructions with pictures.
+When someone finds the instructions in english, please inform us.
+
+Here a summary (When I switched the language to english, the website had still the German field names):
+
+ - Go to https://serviceportal.uni-paderborn.de.
+   - Click on "Benutzerverwaltung" and "Weitere Dienste".
+   - Activate "Erweiterte Ansicht".
+   - Search for "Jupyter" and click "Optionen" and then "Beantragen".
+ - Go to https://jupyter.upb.de
+   - Login with IMT credentials
+   - Select Scientific python environment.
+
+## Other Jupyterhub servers
+
+Inside the university are more Jupyterhub servers, but we have no permissions to
+use them for teaching. You have to ask the maintainer, whether it is ok to use them.
 
 # Remote: CoCalc
 
