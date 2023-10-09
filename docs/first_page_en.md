@@ -24,3 +24,6 @@ Nevertheless, the practical exercises in the courses mentioned above require the
 
  - Documentation: https://fgnt.github.io/python_crashkurs
  - Materials: https://github.com/fgnt/python_crashkurs
+
+If you want to use your private notebook, please try to install it before the course (install instructions: [Linux](https://fgnt.github.io/python_crashkurs/#/include/install_linux), [Windows](https://fgnt.github.io/python_crashkurs/#/include/install_windows), MacOS is similar to Linux).
+15 Minutes before the course, we will provide help with install issues.
