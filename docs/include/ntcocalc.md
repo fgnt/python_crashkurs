@@ -1,5 +1,29 @@
 # Remote: Jupyter Hub and CoCalc
 
+## Options
+
+While Python can be installed on a local machine or on a network filesystem,
+there are plenty of options to program in a Browser.
+
+Options:
+ - Jupyter Hub installations in the university
+   - Communications Engineering: https://ntprog2.upb.de
+   - IMT: https://jupyter.upb.de
+   - Noctua: https://jh.pc2.uni-paderborn.de (Requires HPC access)
+ - CoCalc: https://cocalc.com (US company)
+ - Colab: https://colab.google (US company)
+ - JupyterLite: https://jupyter.org/try-jupyter/lab/
+   - May not support all scientific packages
+   - Runs locally and uses the browser cache to store files.
+
+While we recommend using a local installation, a remote installation
+is often comfortable to use across multiple computers.
+The listed Jupyter Hubs are operated by someone in the university (us, IMT, HPC),
+and hence we recommend using those. But note, that they don't have data backups.
+If you want to have data backups, we recommend using the Poolroom computers, that have backups for the home directory.
+
+
+
 # Remote: Jupyter Hub
 
 [jupyter.org](https://jupyter.org/hub):
@@ -32,6 +56,10 @@ Alternatively, your can ask your tutor to get a user and password assigned.
 
 Website: https://jupyter.upb.de
 
+ - IMT login
+ - Select Scientific python environment, Datascience environment or Tensorflow environment
+
+
 ### Setup:
 
 See https://hilfe.uni-paderborn.de/Jupyter_-_Allgemeine_Informationen for instructions with pictures.
@@ -49,13 +77,13 @@ Here a summary (When I switched the language to english, the website had still t
 
 ## Other Jupyterhub servers
 
-Inside the university are more Jupyterhub servers, but we have no permissions to
+Inside the university are more Jupyterhub servers, but we have no permission to
 use them for teaching. You have to ask the maintainer, whether it is ok to use them.
 
 # Remote: CoCalc
 
-While this software provides nice colaborative features, the docker image they provide is unstable.
-We stopped to recommend our CoCalc server, because randomly the projects of the students freeze.
+While this software provides nice collaborative features, the docker image they provide is unstable.
+We stopped recommending our CoCalc server because randomly the projects of the students freeze.
 For https://cocalc.com/ we observed no stability problems.
 
 (Wikipedia)[https://en.wikipedia.org/wiki/CoCalc]: 
@@ -78,9 +106,9 @@ Step by step registration:
  - Open the URL.
  - Click *Sign In*
  - Fill `Create an Account`
-   - Note: Our CoCalc server doesn't send a confirmation email, your account will directly be appoved after registration.
+   - Note: Our CoCalc server doesn't send a confirmation email, your account will directly be approved after registration.
    - Use the lecture name as prefix of your first name (e.g. `[SML] Max`). That ensures your tutor will be able to invite you to the correct projects.
-   -  If you visit multiple lecture, you can use something like `[SML][DSSP] Max`.
+   -  If you visit multiple lectures, you can use something like `[SML][DSSP] Max`.
 
 ## FAQ
 
@@ -88,5 +116,7 @@ Q: When I open a Notebook, it asks `Select a Kernel`
 A: Simply select the suggested kernel `Python 3 (Ubuntu Linux)`
 
 Q: What is a kernel?
-A: The kernel could be interpreted as the executer of the notebook. Everything that should be executed is send to the kernel. There are options for different Python installations, but also for other laguages `R` or `Octave`.
+A: The kernel could be interpreted as the executor of the notebook.
+Everything that should be executed is sent to the kernel.
+There are options for different Python installations, but also for other languages `R` or `Octave`.
    
