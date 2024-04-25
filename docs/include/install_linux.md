@@ -14,7 +14,7 @@ cd /path/to/install/anaconda  # e.g. cd /opt/
 
 Download anaconda and save it under `anaconda.sh`
 ```bash
-wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh -O anaconda.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh -O anaconda.sh
 ```
 
 Install anaconda. Answer all questions that get prompted
