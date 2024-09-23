@@ -81,9 +81,9 @@ Here a summary (When I switched the language to english, the website had still t
 Inside the university are more Jupyterhub servers, but we have no permission to
 use them for teaching. You have to ask the maintainer, whether it is ok to use them.
 
-# Remote: CoCalc
-
 <!---
+
+# Remote: CoCalc
 
 While this software provides nice collaborative features, the docker image they provide is unstable.
 We stopped recommending our CoCalc server because randomly the projects of the students freeze.
