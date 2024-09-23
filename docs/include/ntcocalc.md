@@ -7,8 +7,7 @@ there are plenty of options to program in a Browser.
 
 Options:
  - Jupyter Hub installations in the university
-   - Communications Engineering: https://ntprog2.upb.de
-   - IMT: https://jupyter.upb.de
+   - ZIM: https://jupyter.upb.de
    - Noctua: https://jh.pc2.uni-paderborn.de (Requires HPC access)
  - CoCalc: https://cocalc.com (US company)
  - Colab: https://colab.google (US company)
@@ -18,10 +17,10 @@ Options:
 
 While we recommend using a local installation, a remote installation
 is often comfortable to use across multiple computers.
-The listed Jupyter Hubs are operated by someone in the university (us, IMT, HPC),
+The listed Jupyter Hubs are operated by someone in the university (ZIM, HPC),
 and hence we recommend using those. But note, that they don't have data backups.
-If you want to have data backups, we recommend using the Poolroom computers, that have backups for the home directory.
-
+If you want to have data backups, we recommend using the Poolroom computers,
+that have backups for the home directory.
 
 
 # Remote: Jupyter Hub
@@ -40,7 +39,8 @@ If you want to have data backups, we recommend using the Poolroom computers, tha
 > user in the world. It is customizable and scalable, and is suitable
 > for small and large teams, academic courses, and large-scale infrastructure.
 
-## NT Jupyterhub serverer
+<!--- We stopped our Jupyterhub server, because the IMT has one
+## NT Jupyterhub server
 
 Website: https://ntprog2.upb.de
 
@@ -51,8 +51,9 @@ If its not activated, you will get the following error:
  
 Ask your tutor, to get your account activated. He needs your IMT login name.
 Alternatively, your can ask your tutor to get a user and password assigned.
+-->
 
-## IMT Jupyterhub server
+## ZIM (formerly IMT) Jupyterhub server
 
 Website: https://jupyter.upb.de
 
@@ -82,6 +83,8 @@ use them for teaching. You have to ask the maintainer, whether it is ok to use t
 
 # Remote: CoCalc
 
+<!---
+
 While this software provides nice collaborative features, the docker image they provide is unstable.
 We stopped recommending our CoCalc server because randomly the projects of the students freeze.
 For https://cocalc.com/ we observed no stability problems.
@@ -110,10 +113,12 @@ Step by step registration:
    - Use the lecture name as prefix of your first name (e.g. `[SML] Max`). That ensures your tutor will be able to invite you to the correct projects.
    -  If you visit multiple lectures, you can use something like `[SML][DSSP] Max`.
 
+-->
+
 ## FAQ
 
 Q: When I open a Notebook, it asks `Select a Kernel`
-A: Simply select the suggested kernel `Python 3 (Ubuntu Linux)`
+A: Simply select the suggested kernel, e.g. `Python 3 (Ubuntu Linux)`
 
 Q: What is a kernel?
 A: The kernel could be interpreted as the executor of the notebook.
