@@ -21,8 +21,8 @@ However, there will be a question round at April 15st 09:00 to solve eventual pr
 of the Python environment. -->
 <!-- The course will take place on October 21th, 2022 and the following Friday from 14:00 to 16:00
 in the pool room P7.2.02.1. -->
-The course will start on Friday, April 12th at 13:00 with part one in poolroom P7.2.02.1.
-The other parts will be on the following Fridays (April 19, April 26) at the same time.
+The course will start on Friday, October 11th at 13:30 with part one in poolroom P7.2.02.1.
+The other parts will be on the following Fridays (October 18, October 25) at the same time.
 <!-- The two dates for the second part will be decided in our first meeting. -->
 <!-- This year, we will skip the third part (pandas, ...). -->
 The participation in this course is fully optional.
