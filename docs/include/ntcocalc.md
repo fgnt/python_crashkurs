@@ -115,15 +115,29 @@ Step by step registration:
 
 -->
 
-## FAQ
 
-Q: When I open a Notebook, it asks `Select a Kernel`
+# Use CoCalc
+[https://cocalc.com/](https://cocalc.com/) Collaborative Calculation in the Cloud
+
+ - Open a browser
+ - Go to [https://cocalc.com/](https://cocalc.com/)
+ - Log in
+ - Open a project
+ - Go to settings
+ - Launch the Plain Jupyter server.
+
+You can also use the build in Jupyter, but it misses some features.
+
+
+# FAQ
+
+Q: When I open a Notebook, it asks `Select a Kernel` <br/>
 A: Simply select the suggested kernel, e.g. `Python 3 (Ubuntu Linux)`
 
-Q: What is a kernel?
+Q: What is a kernel? <br/>
 A: The kernel could be interpreted as the executor of the notebook.
 Everything that should be executed is sent to the kernel.
 There are options for different Python installations, but also for other languages `R` or `Octave`.
 
-Q: What happened with the department jupyterhub server?
+Q: What happened with the department jupyterhub server? <br/>
 A: Since ZIM has now a Jupyter Hub server with a proper integration of the university account, we recomment to use that one.
