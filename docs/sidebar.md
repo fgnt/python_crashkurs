@@ -5,7 +5,7 @@
  * [Installation for Linux](/include/install_linux)
  * [Installation for Windows](/include/install_windows)
  * [Use in Poolroom](/include/poolroom)
- * [Remote: JupyterHub and CoCalc](/include/ntcocalc)
+ * [Remote: Jupyter Hub and alternatives](/include/ntcocalc)
  * [Installing and updating packages](/include/packages)
  * [Jupyter / IPython](/include/jupyter)
  * [Numpy/Scipy](/include/numpy)
