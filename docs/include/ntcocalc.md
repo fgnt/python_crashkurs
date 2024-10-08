@@ -1,4 +1,4 @@
-# Remote: Jupyter Hub and CoCalc
+# Remote: Jupyter Hub, CoCalc, Colab and JupyterLite
 
 ## Options
 
@@ -124,4 +124,6 @@ Q: What is a kernel?
 A: The kernel could be interpreted as the executor of the notebook.
 Everything that should be executed is sent to the kernel.
 There are options for different Python installations, but also for other languages `R` or `Octave`.
-   
+
+Q: What happened with the department jupyterhub server?
+A: Since ZIM has now a Jupyter Hub server with a proper integration of the university account, we recomment to use that one.
