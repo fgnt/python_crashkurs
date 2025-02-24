@@ -119,6 +119,9 @@ pip install soundfile requests PyYAML beautifulsoup4 dill diskcache h5py  # IO
 pip install psutil tqdm natsort cached-property line_profiler humanfriendly
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install nbstripout
+
+pip install tensorboard
+pip install standard-imghdr  # tensorboard dependency
 ```
 
 ## Starting jupyter
