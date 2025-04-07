@@ -55,6 +55,7 @@ Hint: integer has infinite numer of bits (e.g. `2**4000`)
 ## Collections
 List
 ```python
+
 l = [1, 'abc']
 ```
 Tuple
@@ -75,7 +76,7 @@ Indexing and slicing:
 l = list(range(10))
 print(l[0])
 print(l[-1])
-print(l[::2])
+print(l[::2]) # [start:stop:step]
 print(l[1:6:2])
 del l[3]
 print(l)
@@ -92,6 +93,7 @@ In General:
 
 Dict (Mapping, Hash):
 ```python
+d_0 = {}
 d = {'a': 1, 2: 'b'}  # d = dict(a=1)
 print(d['a'], d[2])
 print(d.keys())
@@ -119,6 +121,9 @@ l = list(range(10))
 for e in l:
     print(e)
 
+for index, element in enumerate(l):
+    print(index, element)
+
 while len(l) > 2:
     del l[2]
 ```
@@ -127,6 +132,12 @@ while len(l) > 2:
 ## List comprehensions:
 
 ```python
+squares = []
+for a in range(11):
+    if a < 5:
+        squares.append(a ** 2)
+
+# or instead: 
 squares = [
     a ** 2
     for a in range(11)
@@ -134,10 +145,7 @@ squares = [
 ]
 print(squares)
 
-squares = []
-for a in range(11):
-    if a < 5:
-        squares.append(a ** 2)
+
 ```
 
 
@@ -149,6 +157,7 @@ def sub(a, b):
     return a - b
 
 print(sub(1, 2))
+print(sub(2, 1))
 print(sub(b=2, a=1))
 ```
 
@@ -163,6 +172,9 @@ class Dog:
     def sit(self):
         """Simulate sitting."""
         print(self.name, 'is sitting')
+
+dog = Dog("Bello")
+dog.sit()
 ```
 
 ## Task:
